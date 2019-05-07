@@ -22,8 +22,21 @@ Follow these steps for completing your project.
 ## Task 2: Minimum Viable Product
 
 * [ ] Review each [design file](design-files).  Notice the subtle differences between them all. 
-* [ ] Insert a `viewport` meta tag into the head of the project with these html attributes: `content="width=device-width, initial-scale=1"`
-* [ ] Introduce max-width media queries into your project at 800px and 500px  
+      
+        Main differences:
+          
+          From Desktop to Tablet:
+
+        [ ] Tablet and Mobile hide Header img and Center Header(H1 and Button)
+        [ ] Great Idea goes on top of Navbar
+          
+          From Tablet to Mobile:
+          
+        [ ] Navbar is stacked and each tab is width 100vw
+        [ ] Each section of main content is in a column as well.
+
+* [*] Insert a `viewport` meta tag into the head of the project with these html attributes: `content="width=device-width, initial-scale=1"`
+* [*] Introduce max-width media queries into your project at 800px and 500px  
 * [ ] Do your best to make your styles match the design files at each breakpoint 
 
 ## Stretch Goals: 
