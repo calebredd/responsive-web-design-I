@@ -160,7 +160,7 @@ body {
 h2 {
   font-size: 40px;
 }
-@media (max-width: 880px) {
+@media (max-width: 800px) {
   header img {
     width: 40vw;
     height: 40vw;
@@ -179,6 +179,9 @@ h2 {
     padding: 2px;
     margin: 10px 2px;
   }
+}
+#mobile-logo {
+  display: none;
 }
 nav {
   color: gray;
@@ -249,8 +252,8 @@ button:hover {
 
 .half-section {
   width: 48%;
-  padding-right:10px;
-  padding-left:10px;
+  padding-right: 10px;
+  padding-left: 10px;
   display: inline-flex;
   flex-direction: column;
 }
@@ -260,8 +263,8 @@ button:hover {
 }
 .third-section {
   width: 30%;
-  padding-right:10px;
-  padding-left:10px;
+  padding-right: 10px;
+  padding-left: 10px;
   display: inline-flex;
   flex-direction: column;
 }
@@ -339,14 +342,33 @@ footer img {
   justify-content: space-evenly;
 }
 @media (max-width: 800px) {
+  #right-header {
+    display: none;
+  }
+  #mobile-logo {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 40px;
+  }
+  nav {
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .logo {
+    display: none;
+  }
+  header {
+    margin-top: 50px;
+  }
   .row {
     padding: 5px;
     width: 100%;
     margin: 0 0;
     flex-direction: column;
   }
-  h2{
-    font-size:30px;
+  h2 {
+    font-size: 30px;
   }
   .half {
     width: 100%;
@@ -366,18 +388,54 @@ footer img {
   }
 }
 @media (max-width: 500px) {
+  .divider {
+    display: none;
+  }
+  nav {
+    position: relative;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  nav a {
+    width: 100%;
+    text-align: center;
+    border: 1px solid black;
+  }
+  #mobile-logo,
+  #mobile-logo * {
+    border: none;
+    padding-bottom: 2px;
+  }
+  nav-item {
+    line-height: 30px;
+  }
+  header {
+    margin-top: 0px;
+  }
   .row {
     padding: 5px;
     width: 100%;
     margin: 0 0;
     flex-direction: column;
   }
-  h2{
-    font-size:30px;
+  h2 {
+    font-size: 30px;
   }
   .half {
     width: 100%;
     margin: 10px;
+  }
+  #content {
+    display: flex;
+    flex-direction: column;
+  }
+  #content section {
+    width: 100%;
+    margin:10px;
+  }
+  #contact-section{
+    width:50%;
   }
   footer {
     margin: 10px;
@@ -395,5 +453,3 @@ footer img {
 .copyright {
   text-align: center;
 }
-
-

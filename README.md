@@ -27,12 +27,12 @@ Follow these steps for completing your project.
           
           From Desktop to Tablet:
 
-        [ ] Tablet and Mobile hide Header img and Center Header(H1 and Button)
+        [*] Tablet and Mobile hide Header img and Center Header(H1 and Button)
         [ ] Great Idea goes on top of Navbar
           
           From Tablet to Mobile:
           
-        [ ] Navbar is stacked and each tab is width 100vw
+        [*] Navbar is stacked and each tab is width 100vw
         [ ] Each section of main content is in a column as well.
 
 * [*] Insert a `viewport` meta tag into the head of the project with these html attributes: `content="width=device-width, initial-scale=1"`
